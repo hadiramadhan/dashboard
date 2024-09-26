@@ -10,7 +10,7 @@ const monthlySalesData = [
 	{ month: "Jun", sales: 5500 },
 	{ month: "Jul", sales: 7000 },
 ];
-const SalesOverViewChart = () => {
+const SalesOverviewChart = () => {
     const [selectedTimeRange, setSelectedTimeRange] = useState("Month")
   return (
     <motion.div
@@ -49,4 +49,4 @@ const SalesOverViewChart = () => {
   )
 }
 
-export default SalesOverViewChart
+export default SalesOverviewChart
