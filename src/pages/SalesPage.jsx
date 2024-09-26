@@ -2,7 +2,7 @@ import { CreditCard, DollarSign, ShoppingCart, TrendingUp } from "lucide-react";
 import Header from "../components/common/Header"
 import { motion } from "framer-motion"
 import StatCard from "../components/common/StatCard";
-import SalesOverViewChart from "../components/sales/SalesOverViewChart";
+import SalesOverviewChart from "../components/sales/SalesOverviewChart";
 import SalesByCategotyChart from "../components/sales/SalesByCategotyChart";
 import DailySalesTrend from "../components/sales/DailySalesTrend";
 const salesStats = {
@@ -37,7 +37,7 @@ const SalesPage = () => {
 					/>
 					<StatCard name='Sales Growth' icon={CreditCard} value={salesStats.salesGrowth} color='#EF4444' />
             </motion.div>
-			<SalesOverViewChart />
+			<SalesOverviewChart />
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
 				<SalesByCategotyChart/>
 				<DailySalesTrend/>
